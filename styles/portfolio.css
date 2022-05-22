@@ -1,8 +1,13 @@
 :root {
-  --primary-color: rgba(252, 107, 71);
-  --secondary-color: rgba(72, 195, 205);
+  --primary-color: rgba(250, 133, 101);
+  --secondary-color: rgba(35, 45, 68);
   --heading-font-family: "Roboto", serif;
   --default-font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  margin: 60px auto;
+  max-width: 100%;
 }
 
 h1 {
@@ -14,7 +19,7 @@ h1 {
 h2,
 h3,
 h4 {
-  color: var(--primary-color);
+  color: rgba(103, 173, 187);
   font-family: var(--heading-font-family);
 }
 
@@ -26,12 +31,58 @@ h6 {
 
 p {
   font-family: var(--default-font-family);
-  font-weight: 300;
+  font-weight: 400;
   color: var(--secondary-color);
+  font-size: 18px;
 }
 
 .hero {
-  background: #f9f7fe;
+  background: var(--secondary-color);
   text-align: center;
   padding: 140px 20px;
+}
+
+.hero h1 {
+  font-size: 76px;
+}
+
+.hero h2 {
+  font-size: 42px;
+}
+
+.hero h3 {
+  font-size: 30px;
+}
+
+.hero .contact-link {
+  font-size: 18px;
+  padding: 20px 15px;
+  background: rgba(103, 173, 187);
+  color: white;
+}
+
+.hero .about-link {
+  font-size: 18px;
+  padding: 20px 20px;
+  background: rgba(103, 173, 187);
+  color: white;
+}
+
+.contact-link:hover,
+.about-link:hover {
+  color: var(--primary-color);
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 5px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
