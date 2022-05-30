@@ -107,6 +107,10 @@ footer p {
   padding: 10px;
 }
 
+.navbar-brand:hover {
+  border-color: rgba(103, 173, 187) var(--secondary-color);
+}
+
 .nav-item {
   padding: 0 15px;
 }
