@@ -266,7 +266,7 @@ footer p {
   }
 
   .img-fluid {
-    display: none;
+    max-width: 40%;
   }
 
   .btn-branding {
