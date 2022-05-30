@@ -233,6 +233,16 @@ footer p {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
+.email-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 26px;
+}
+
+.email-link:hover {
+  color: var(--primary-color);
+}
+
 @media (max-width: 576px) {
   h2 {
     font-size: 24px;
