@@ -48,6 +48,7 @@ footer .enquiry-box {
 
 footer .enquiry-box h4 {
   font-size: 46px;
+  color: var(--secondary-color);
 }
 
 footer .enquiry-box p {
@@ -82,8 +83,13 @@ footer .social-links a:hover {
 
 .navbar-light .navbar-brand {
   color: var(--primary-color);
+  border: 4px solid;
+  border-color: var(--secondary-color) rgba(103, 173, 187);
+  border-radius: 5px;
   font-family: var(--heading-font-family);
-  line-height: 20px;
+  font-size: 24px;
+  line-height: 1;
+  padding: 10px;
 }
 
 .nav-item {
@@ -101,11 +107,6 @@ footer .social-links a:hover {
   border: 2px solid rgba(103, 173, 187);
   border-radius: 3px;
   font-weight: 600px;
-}
-
-.headroom--unpinned header,
-.headroom--not-top header {
-  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
 }
 
 .primary-link {
@@ -140,26 +141,6 @@ footer .social-links a:hover {
   font-size: 30px;
 }
 
-.primary-link-contact {
-  font-size: 18px;
-  padding: 20px 15px;
-  background: rgba(103, 173, 187);
-  color: white;
-}
-
-.primary-link-about {
-  font-size: 18px;
-  padding: 20px 20px;
-  background: white;
-  color: rgba(103, 173, 187);
-  border: 2px solid rgba(103, 173, 187);
-}
-
-.primary-link-about:hover,
-.primary-link-contact:hover {
-  color: var(--primary-color);
-}
-
 .projects {
   font-size: 48px;
   line-height: 2;
@@ -168,14 +149,14 @@ footer .social-links a:hover {
 
 .img-fluid {
   max-width: 100%;
-  max-height: auto;
+  height: auto;
 }
 
 .self-portrait {
+  margin-top: 50px;
   border: 3px solid var(--secondary-color);
   box-shadow: 10px 5px 5px var(--secondary-color);
-  max-height: 560px;
-  max-width: auto;
+  max-width: 80%;
 }
 
 .btn-branding {
@@ -205,7 +186,7 @@ footer .social-links a:hover {
 
 .content-container {
   text-align: center;
-  padding: 40px 20px;
+  padding: 40px 20px 0px 20px;
 }
 
 .content {
